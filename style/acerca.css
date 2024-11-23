@@ -1,0 +1,101 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+/* Header */
+/* Encabezado Hero */
+.hero {
+    background: url('imagen/y1-removebg-preview.png') no-repeat center center/cover;
+    height: 70vh; /* Se ajusta la altura del encabezado */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Se mueve el contenido más arriba */
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px; /* Ajusta el espaciado superior */
+}
+
+.nav_links{
+    color: black;
+    text-shadow: 0 0 20px #0bb7fc, 0 0 30px #0ae8f8, 0 0 40px #07bcc2, 0 0 50px #06c2fc;
+}
+
+.hero_container {
+    width: 80%; /* Ajustamos el ancho del contenido */
+}
+
+.hero_title {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.hero_paragraph {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.about_section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about_paragraph {
+    font-size: 1.2rem;
+    margin: 0 auto;
+    max-width: 800px;
+    line-height: 1.6;
+}
+
+
+
+/* Main content */
+.subtitle {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about_paragraph {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Map */
+.map_container {
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: rgb(236, 230, 230);
+    padding: 40px 0;
+}
+
+.footer_title {
+    font-size: 1.5rem;
+    text-align: center;
+    color: black;
+    text-shadow: 0 0 20px #ff9900, 0 0 30px #ff6600, 0 0 40px #ff3300, 0 0 50px #ff0000;
+}
