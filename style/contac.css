@@ -28,6 +28,51 @@ header h1 {
     font-weight: bold;
 }
 
+/* navegacion */
+
+.nav{
+    --padding-container:0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.nav_title{
+    font-weight: 300;
+}
+
+.nav_link{
+    margin-left: auto;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 2em;
+}
+
+.nav_items{
+    list-style: none;
+}
+
+.nav_links{
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav_menu{
+    margin-left: auto;
+    cursor: pointer;
+    display: none;
+}
+.nav_img{
+    display: block;
+    width: 30px;
+}
+.nav_close{
+    display: var(--show, none);
+}
+
 /* Formulario de contacto */
 .contact-section {
     background-color: #fff;
