@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Tattoo Studio</title>
+    <link rel="stylesheet" href="../style/contac.css">
+</head>
+<body>
+
+<header>
+    <!-- <h1>Contáctanos</h1> -->
+</header>
+
+<section class="container contact-section">
+    <h2>Ponte en Contacto</h2>
+    <p>Si tienes preguntas o deseas agendar una consulta para tu próximo tatuaje, por favor rellena el formulario a continuación:</p>
+
+    <form action="../php/contacto.php" method="POST" class="contact-form">
+        <label for="name">Nombre completo</label>
+        <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email" placeholder="Tu correo" required>
+
+        <label for="message">Mensaje o Consulta</label>
+        <textarea id="message" name="message" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+        <input type="submit" value="Enviar Mensaje">
+    </form>
+</section>
+
+<section class="container map-container">
+    <h2 class="h2-1">Ubicación</h2>
+    <iframe src="https://www.google.com/maps?q=56a1%20Cra.%2020c%20Medell%C3%ADn,%20Antioquia&output=embed"></iframe>
+</section>
+
+</body>
+</html>
